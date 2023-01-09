@@ -1,0 +1,38 @@
+[
+	{
+		"id": 0,
+		"name": "Boston Socks Manufacturing",
+		"inStoreAmount": 1000,
+		"industry": "Socks",
+		"contractorType": "Vendor"
+	},
+	{
+		"id": 1,
+		"name": "Smith Socks Wholesale & Retail",
+		"inStoreAmount": 1000,
+		"industry": "Socks",
+		"contractorType": "Broker"
+	},
+	{
+		"id": 2,
+		"name": "Miller & Brown Industries",
+		"inStoreAmount": 500,
+		"industry": "Socks",
+		"contractorType": "Vendor"
+	},
+	{
+		"id": 3,
+		"name": "America Market",
+		"inStoreAmount": 20000,
+		"industry": "Socks",
+		"contractorType": "Customer"
+	},
+	{
+		"id": 4,
+		"name": "Socks Super Zone",
+		"inStoreAmount": 600,
+		"industry": "Socks",
+		"contractorType": "Customer"
+	}
+]
+	

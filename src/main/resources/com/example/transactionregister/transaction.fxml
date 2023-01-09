@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="300.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.transactionregister.TransactionController">
+   <children>
+      <Label layoutX="21.0" layoutY="37.0" text="Provider:" />
+      <Label layoutX="410.0" layoutY="37.0" text="In store" />
+      <Label layoutX="20.0" layoutY="101.0" text="Transaction value:" />
+      <Label layoutX="20.0" layoutY="178.0" text="Client:" />
+      <Label layoutX="407.0" layoutY="178.0" text="In store" />
+      <TextField fx:id="tfProviderName" layoutX="21.0" layoutY="55.0" prefHeight="26.0" prefWidth="375.0" />
+      <TextField fx:id="tfClientName" layoutX="21.0" layoutY="196.0" prefHeight="26.0" prefWidth="375.0" />
+      <TextField fx:id="tfProviderStore" layoutX="407.0" layoutY="56.0" prefHeight="26.0" prefWidth="172.0" />
+      <TextField fx:id="tfClientStore" layoutX="407.0" layoutY="196.0" prefHeight="26.0" prefWidth="172.0" />
+      <Slider fx:id="slTransactionVolume" layoutX="18.0" layoutY="131.0" onMouseDragged="#onAmountChange" prefHeight="14.0" prefWidth="564.0" showTickLabels="true" showTickMarks="true" />
+      <Separator layoutX="21.0" layoutY="244.0" prefHeight="0.0" prefWidth="558.0" />
+      <Button fx:id="btConfirm" layoutX="265.0" layoutY="254.0" mnemonicParsing="false" onAction="#onTransactionAction" prefWidth="70.0" text="Confirm" />
+      <Button fx:id="btReject" layoutX="346.0" layoutY="254.0" mnemonicParsing="false" onAction="#onTransactionAction" prefWidth="70.0" text="Reject" />
+      <Button fx:id="btInitiate" disable="true" layoutX="427.0" layoutY="254.0" mnemonicParsing="false" onAction="#onTransactionAction" prefWidth="70.0" text="Initiate" />
+      <Button fx:id="btComplete" disable="true" layoutX="508.0" layoutY="254.0" mnemonicParsing="false" onAction="#onTransactionAction" prefWidth="70.0" text="Complete" />
+   </children>
+</AnchorPane>
